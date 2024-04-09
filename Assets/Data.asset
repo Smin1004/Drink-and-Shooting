@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df3ac4645cb826742ac264f5149e3a44, type: 3}
+  m_Name: Data
+  m_EditorClassIdentifier: 
+  stageIndex: 0
+  HP: 0
+  weaponIndex: 0
+  weaponList: []
+  startGun: {fileID: 2761089759901147361, guid: 66b183243dce04543bae85c78af76c2e, type: 3}

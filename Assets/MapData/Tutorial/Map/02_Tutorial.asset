@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dcaa1c7a339d974594a668fdc86cfab, type: 3}
+  m_Name: 02_Tutorial
+  m_EditorClassIdentifier: 
+  wall: {fileID: 6386591951298172763, guid: b1f4f94ecf9577a44ae643f1f7300115, type: 3}
+  tile: {fileID: 2191340756102840658, guid: f5f6915b4a18be44faac8c25c17e6867, type: 3}
+  doorPos:
+  - {x: 0, y: 8, z: 0}
+  - {x: 0, y: -7, z: 180}
+  isOpen: 0101
+  leftDown: {x: -5, y: -7}
+  rightUp: {x: 4, y: 8}
+  enemyList:
+  - spawnEnemy: {fileID: 3087860875857326480, guid: c8af2eed07d66644a88650d32ddd3032, type: 3}
+    spawnPos: {x: 0, y: 5}
+    wavecount: 0
+    waitTime: 0

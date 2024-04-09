@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dcaa1c7a339d974594a668fdc86cfab, type: 3}
+  m_Name: 10_BattleMap
+  m_EditorClassIdentifier: 
+  wall: {fileID: 1260688358844163812, guid: aae93aa43b3a252448b80552453825f9, type: 3}
+  tile: {fileID: 4511377141740718957, guid: 009f8da9aa3c6f74b9214e99ef44d7bf, type: 3}
+  doorPos:
+  - {x: -5, y: 7, z: 0}
+  - {x: 5, y: 7, z: 0}
+  - {x: 10, y: 0, z: 90}
+  - {x: 5, y: -7, z: 180}
+  - {x: -5, y: -7, z: 180}
+  - {x: -10, y: 0, z: 270}
+  isOpen: 000001000001
+  leftDown: {x: -10, y: -7}
+  rightUp: {x: 10, y: 7}
+  enemyList:
+  - spawnEnemy: {fileID: 3608918595750860135, guid: c74ecd2df1220f548b2b641edd805ea1, type: 3}
+    spawnPos: {x: 6, y: 4}
+    wavecount: 0
+    waitTime: 0
+  - spawnEnemy: {fileID: 3608918595750860135, guid: c74ecd2df1220f548b2b641edd805ea1, type: 3}
+    spawnPos: {x: -6, y: 4}
+    wavecount: 0
+    waitTime: 0
+  - spawnEnemy: {fileID: 3608918595750860135, guid: c74ecd2df1220f548b2b641edd805ea1, type: 3}
+    spawnPos: {x: 6, y: -4}
+    wavecount: 0
+    waitTime: 0
+  - spawnEnemy: {fileID: 3608918595750860135, guid: c74ecd2df1220f548b2b641edd805ea1, type: 3}
+    spawnPos: {x: -6, y: -4}
+    wavecount: 0
+    waitTime: 0
+  - spawnEnemy: {fileID: 7690602657329698967, guid: 893cd6f3c656e49408a7b53fa206dc39, type: 3}
+    spawnPos: {x: 0, y: 3}
+    wavecount: 0
+    waitTime: 3
+  - spawnEnemy: {fileID: 7690602657329698967, guid: 893cd6f3c656e49408a7b53fa206dc39, type: 3}
+    spawnPos: {x: 0, y: -3}
+    wavecount: 0
+    waitTime: 3
+  - spawnEnemy: {fileID: 3529407740391363066, guid: c7553829f0da497409dcd6b91aaf2938, type: 3}
+    spawnPos: {x: 0, y: 3}
+    wavecount: 1
+    waitTime: 0
+  - spawnEnemy: {fileID: 3529407740391363066, guid: c7553829f0da497409dcd6b91aaf2938, type: 3}
+    spawnPos: {x: 0, y: -3}
+    wavecount: 1
+    waitTime: 0

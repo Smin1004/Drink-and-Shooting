@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dcaa1c7a339d974594a668fdc86cfab, type: 3}
+  m_Name: 02_BOSSMAP
+  m_EditorClassIdentifier: 
+  wall: {fileID: 2010786944772596658, guid: dd46e271b99633543bf4e2296768bf77, type: 3}
+  tile: {fileID: 1741725916762353919, guid: e231b8af25a196946b91d3744404c536, type: 3}
+  doorPos:
+  - {x: 0, y: 14, z: 0}
+  - {x: 17, y: 0, z: 90}
+  - {x: 0, y: -13, z: 180}
+  - {x: -17, y: 0, z: 270}
+  isOpen: 00000000
+  leftDown: {x: -17, y: -13}
+  rightUp: {x: 17, y: 14}
+  enemyList:
+  - spawnEnemy: {fileID: 7946035629298478219, guid: e7fc5c1a5df93de40a28c9415ef04382, type: 3}
+    spawnPos: {x: 0, y: 0}
+    wavecount: 0
+    waitTime: 0

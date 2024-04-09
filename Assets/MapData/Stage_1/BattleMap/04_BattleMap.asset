@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dcaa1c7a339d974594a668fdc86cfab, type: 3}
+  m_Name: 04_BattleMap
+  m_EditorClassIdentifier: 
+  wall: {fileID: 547912599470693642, guid: a22bc427492950a43b5dedfa077d4f8b, type: 3}
+  tile: {fileID: 79929618963985852, guid: 5d730f176a9fb2e438f120a1cdaeb53b, type: 3}
+  doorPos:
+  - {x: 0, y: 11, z: 0}
+  - {x: 11, y: 0, z: 90}
+  - {x: 0, y: -11, z: 180}
+  - {x: -11, y: 0, z: 270}
+  isOpen: 00010000
+  leftDown: {x: -11, y: -11}
+  rightUp: {x: 11, y: 11}
+  enemyList:
+  - spawnEnemy: {fileID: 3608918595750860135, guid: c74ecd2df1220f548b2b641edd805ea1, type: 3}
+    spawnPos: {x: 1, y: 0}
+    wavecount: 0
+  - spawnEnemy: {fileID: 3608918595750860135, guid: c74ecd2df1220f548b2b641edd805ea1, type: 3}
+    spawnPos: {x: -1, y: 0}
+    wavecount: 0
+  - spawnEnemy: {fileID: 3087860875857326480, guid: c8af2eed07d66644a88650d32ddd3032, type: 3}
+    spawnPos: {x: 3, y: 3}
+    wavecount: 1
+  - spawnEnemy: {fileID: 2412995398539303576, guid: 154afa5d4b232ea4caf43b5c60408359, type: 3}
+    spawnPos: {x: -3, y: 3}
+    wavecount: 1
+  - spawnEnemy: {fileID: 3087860875857326480, guid: c8af2eed07d66644a88650d32ddd3032, type: 3}
+    spawnPos: {x: -3, y: -3}
+    wavecount: 1
+  - spawnEnemy: {fileID: 2412995398539303576, guid: 154afa5d4b232ea4caf43b5c60408359, type: 3}
+    spawnPos: {x: 3, y: -3}
+    wavecount: 1
+  - spawnEnemy: {fileID: 3608918595750860135, guid: c74ecd2df1220f548b2b641edd805ea1, type: 3}
+    spawnPos: {x: 9, y: 0}
+    wavecount: 2
+  - spawnEnemy: {fileID: 3608918595750860135, guid: c74ecd2df1220f548b2b641edd805ea1, type: 3}
+    spawnPos: {x: -9, y: 0}
+    wavecount: 2
+  - spawnEnemy: {fileID: 3608918595750860135, guid: c74ecd2df1220f548b2b641edd805ea1, type: 3}
+    spawnPos: {x: 0, y: 9}
+    wavecount: 2
+  - spawnEnemy: {fileID: 3608918595750860135, guid: c74ecd2df1220f548b2b641edd805ea1, type: 3}
+    spawnPos: {x: 0, y: -9}
+    wavecount: 2

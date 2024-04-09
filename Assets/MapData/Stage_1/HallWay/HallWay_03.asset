@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dcaa1c7a339d974594a668fdc86cfab, type: 3}
+  m_Name: HallWay_03
+  m_EditorClassIdentifier: 
+  wall: {fileID: 8686059508192863280, guid: 84729661bc76a4747beab495a724b741, type: 3}
+  tile: {fileID: 149960442371336416, guid: a7ed6d9fcacd8a0439fdc53dea41d290, type: 3}
+  doorPos:
+  - {x: -3, y: 5, z: 0}
+  - {x: 3, y: -5, z: 180}
+  isOpen: 0000
+  leftDown: {x: -5, y: -5}
+  rightUp: {x: 5, y: 5}
+  enemyList: []

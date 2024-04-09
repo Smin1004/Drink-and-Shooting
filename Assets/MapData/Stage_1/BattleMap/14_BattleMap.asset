@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dcaa1c7a339d974594a668fdc86cfab, type: 3}
+  m_Name: 14_BattleMap
+  m_EditorClassIdentifier: 
+  wall: {fileID: 9067465087383148657, guid: 1b7fd7fcac04d0f44828447d8dcdd08b, type: 3}
+  tile: {fileID: 2286918466045220358, guid: 46914532e09f34b4b87e24a7aa57d696, type: 3}
+  doorPos:
+  - {x: -6, y: 7, z: 0}
+  - {x: 6, y: 7, z: 0}
+  - {x: 10, y: 0, z: 90}
+  - {x: 6, y: -7, z: 180}
+  - {x: -6, y: -7, z: 180}
+  - {x: -10, y: 0, z: 270}
+  isOpen: 000000010000
+  leftDown: {x: -10, y: -7}
+  rightUp: {x: 10, y: 7}
+  enemyList:
+  - spawnEnemy: {fileID: 7690602657329698967, guid: 893cd6f3c656e49408a7b53fa206dc39, type: 3}
+    spawnPos: {x: 0, y: 0}
+    wavecount: 0
+    waitTime: 0
+  - spawnEnemy: {fileID: 7690602657329698967, guid: 893cd6f3c656e49408a7b53fa206dc39, type: 3}
+    spawnPos: {x: 0, y: 5}
+    wavecount: 0
+    waitTime: 0
+  - spawnEnemy: {fileID: 7690602657329698967, guid: 893cd6f3c656e49408a7b53fa206dc39, type: 3}
+    spawnPos: {x: 0, y: -5}
+    wavecount: 0
+    waitTime: 0
+  - spawnEnemy: {fileID: 3608918595750860135, guid: c74ecd2df1220f548b2b641edd805ea1, type: 3}
+    spawnPos: {x: 0, y: 0}
+    wavecount: 1
+    waitTime: 0
+  - spawnEnemy: {fileID: 3608918595750860135, guid: c74ecd2df1220f548b2b641edd805ea1, type: 3}
+    spawnPos: {x: 0, y: 5}
+    wavecount: 1
+    waitTime: 0
+  - spawnEnemy: {fileID: 3608918595750860135, guid: c74ecd2df1220f548b2b641edd805ea1, type: 3}
+    spawnPos: {x: 0, y: -5}
+    wavecount: 1
+    waitTime: 0

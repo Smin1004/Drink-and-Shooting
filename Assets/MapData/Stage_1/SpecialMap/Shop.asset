@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dcaa1c7a339d974594a668fdc86cfab, type: 3}
+  m_Name: Shop
+  m_EditorClassIdentifier: 
+  wall: {fileID: 3962806991537010094, guid: cddd1ce753024194aa76aa6085c7ccf6, type: 3}
+  tile: {fileID: 2674959354704570780, guid: 076f693020a93ac49ab59ae731e61b4d, type: 3}
+  doorPos:
+  - {x: 0, y: 5, z: 0}
+  - {x: 8, y: 0, z: 90}
+  - {x: 0, y: -5, z: 180}
+  - {x: -8, y: 0, z: 270}
+  isOpen: 00000100
+  leftDown: {x: -8, y: -5}
+  rightUp: {x: 8, y: 5}
+  enemyList:
+  - spawnEnemy: {fileID: 6254758643949225973, guid: 2d0fddc634024324ead628f737f71641, type: 3}
+    spawnPos: {x: 0, y: 0}
+    wavecount: 0

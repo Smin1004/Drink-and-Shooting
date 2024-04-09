@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dcaa1c7a339d974594a668fdc86cfab, type: 3}
+  m_Name: Exit
+  m_EditorClassIdentifier: 
+  wall: {fileID: 3858658720971865834, guid: 06630af02dbc59849bbb2ec84a7b27d2, type: 3}
+  tile: {fileID: 1523322687151120061, guid: a7cde2667de1ca84eafba26fafb5f77a, type: 3}
+  doorPos:
+  - {x: 0, y: 6, z: 0}
+  - {x: 8, y: 0, z: 90}
+  - {x: 0, y: -6, z: 180}
+  - {x: -8, y: 0, z: 270}
+  isOpen: 00000001
+  leftDown: {x: -8, y: -6}
+  rightUp: {x: 8, y: 6}
+  enemyList: []

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d193b960b36ac64bb7c1ff56480cbae, type: 3}
+  m_Name: 01_Stage
+  m_EditorClassIdentifier: 
+  specialMap:
+  - {fileID: 11400000, guid: 1a75fb2bea2ea274b9b663b42f000ac6, type: 2}
+  - {fileID: 11400000, guid: 0c9d86334c67b4f469abebe780e3c8ae, type: 2}
+  - {fileID: 11400000, guid: 7910f9985362b31429ad127c3150e085, type: 2}
+  - {fileID: 11400000, guid: cb7baae59e05c1148b117d9ba0933d48, type: 2}
+  - {fileID: 11400000, guid: 3037fe8a09d77b343a332a142701e53a, type: 2}
+  battleMap:
+  - {fileID: 11400000, guid: 247f122b5141e3e42a61703950de4093, type: 2}
+  - {fileID: 11400000, guid: 1af498dda4ae66e4d91021ab0674fec0, type: 2}
+  - {fileID: 11400000, guid: 69b7625899478c348a7eb5aed57a8387, type: 2}
+  - {fileID: 11400000, guid: b220f1f2db4fb2e4ab193f9376060ba2, type: 2}
+  - {fileID: 11400000, guid: f584da529e85bdb478d40779eb1a305b, type: 2}
+  - {fileID: 11400000, guid: 10b72b2bdfb67be4ab2b75ff69bdd918, type: 2}
+  - {fileID: 11400000, guid: f0668984477643143a34f984b6425954, type: 2}
+  - {fileID: 11400000, guid: bdc1b1e5501170c4f84994b9c0ddc397, type: 2}
+  - {fileID: 11400000, guid: 9d27b0e1b795894499c35331576079d8, type: 2}
+  - {fileID: 11400000, guid: baa70771ca82b274fa9db40aeb7446bd, type: 2}
+  - {fileID: 11400000, guid: 50a265a023c2d25428d610658c2bb28e, type: 2}
+  - {fileID: 11400000, guid: f9715056712e4b441bc015f62b5d7784, type: 2}
+  - {fileID: 11400000, guid: 1d3c5c0cea2a7db419e6d124ad55e13b, type: 2}
+  - {fileID: 11400000, guid: 768b9af13d44d39469f33f5b5ad973b5, type: 2}
+  - {fileID: 11400000, guid: c81dde124e7ae8c40a8aacb283066946, type: 2}
+  hallWay:
+  - {fileID: 11400000, guid: cc2817c48efc14f40be7062a7408eb38, type: 2}
+  - {fileID: 11400000, guid: 859177f15ef62ba42a8cb56e6f558756, type: 2}
+  - {fileID: 11400000, guid: d2f438580643bde449aed95fd0244651, type: 2}
+  - {fileID: 11400000, guid: 6b4f4803375f91246926a8db5c36db61, type: 2}
+  - {fileID: 11400000, guid: 3149f6ed508bd42438e175d8f81b2690, type: 2}
+  - {fileID: 11400000, guid: f1b3aae27901ee149bf5c2f58809c660, type: 2}
+  bossMap:
+  - {fileID: 11400000, guid: 32616d3847f2fa74c8146c61ac04e1e8, type: 2}
+  - {fileID: 11400000, guid: ccd1d6f39d3e4414ab0a520065bcd862, type: 2}
+  shopCount: 1
+  chest01Count: 5
+  chest02Count: 7
+  bossRoomCount: 10
+  maxBattleRoomCount: 15

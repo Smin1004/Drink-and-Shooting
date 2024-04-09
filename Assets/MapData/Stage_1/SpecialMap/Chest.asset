@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dcaa1c7a339d974594a668fdc86cfab, type: 3}
+  m_Name: Chest
+  m_EditorClassIdentifier: 
+  wall: {fileID: 4201734488172557566, guid: 02a1d22e81e5ff549a32488749a563c7, type: 3}
+  tile: {fileID: 3005187196221148962, guid: 630a292f73a27b94a921c1aac77665dc, type: 3}
+  doorPos:
+  - {x: 0, y: 5, z: 0}
+  - {x: 5, y: 0, z: 90}
+  - {x: 0, y: -5, z: 180}
+  - {x: -5, y: 0, z: 270}
+  isOpen: 00010000
+  leftDown: {x: -5, y: -5}
+  rightUp: {x: 5, y: 5}
+  enemyList:
+  - spawnEnemy: {fileID: 6254758643949225973, guid: 2d0fddc634024324ead628f737f71641, type: 3}
+    spawnPos: {x: 0, y: 0}
+    wavecount: 0
